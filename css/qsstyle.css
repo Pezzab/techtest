@@ -1,0 +1,44 @@
+table.coursedata{
+
+}
+
+table.coursedata tr.tableheader {
+	background: #8fc4fb;
+}
+
+tr.header:nth-child(4n+2) {
+	background: #e0eefd;
+}
+
+tr.header:nth-child(4n+2):hover {
+	background: #d9e3ed;
+}
+
+tr.header:nth-child(4n+0) {
+	background: #c3dffb;
+}
+
+tr.header:nth-child(4n+0):hover {
+	background: #b3cde7;
+}
+
+table.coursedata tr.subheader {
+	background: #cff7d9;
+}
+
+table.coursedata tr.student:nth-child(even) {
+	background: #f2fef6;
+}
+
+table.coursedata tr.student:nth-child(odd) {
+	background: #e3fcea;
+}
+
+.subheader th, .student td {
+	padding-left: 2.5em;
+}
+
+td > span {
+	background: transparent;
+}
+
